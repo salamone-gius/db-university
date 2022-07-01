@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px auto;
+}
+
+div:first-of-type {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 1200px;
+    margin: 20px auto;
+}
