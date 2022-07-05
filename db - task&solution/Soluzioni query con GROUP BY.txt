@@ -7,7 +7,7 @@
 
 2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
 
-    SELECT COUNT(`id`) AS 'docenti-per_ufficio', `office_address` AS 'ufficio'
+    SELECT COUNT(`id`) AS 'docenti_per_ufficio', `office_address` AS 'ufficio'
     FROM `teachers`
     GROUP BY `office_address`;
 
@@ -23,4 +23,4 @@
 
     SELECT `department_id` AS 'id_dipartimento', COUNT(`id`) AS 'corsi_per_dipartimento'
     FROM `degrees`
-    GROUP BY `department_id`
+    GROUP BY `department_id`;
